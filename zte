@@ -1,1 +1,14 @@
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Zte hub loading";
+    Text = "It load slow, pls wait";
+    Icon = "rbxassetid://127664210230639";
+    Duration = 5;
+})
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "DONT ABUSE";
+    Text = "Or get blacklisted";
+    Icon = "rbxassetid://127664210230639";
+    Duration = 5;
+})
 pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/khanh-lol/Ztehub/refs/heads/main/autoexecute"))()end)
