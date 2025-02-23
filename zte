@@ -1,4 +1,7 @@
 
+if getgenv().copydiscord == true then
+    setclipboard("Ztehub : https://discord.gg/P2VxXWr3t2")
+end
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Zte hub loading";
     Text = "It load slow, pls wait";
