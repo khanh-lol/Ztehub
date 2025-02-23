@@ -1,1 +1,1 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/khanh-lol/Ztehub/refs/heads/main/autoexecute'))()
+pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/khanh-lol/Ztehub/refs/heads/main/autoexecute"))()end)
