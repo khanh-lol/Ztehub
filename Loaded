@@ -1,5 +1,5 @@
 -- 1) Fetch the raw HTML
-local url     = "https://zte.ct.ws/"
+local url     = "https://zte.ct.ws/?=wiissjj"
 local website = game:HttpGet(url)
 
 -- 2) Debug: show us what we actually got back
