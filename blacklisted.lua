@@ -1,6 +1,7 @@
-
+-- chatpgt :)
 local blacklisted = {
     "111Gold_Roger",
+    "daniellkdkr"
 }
 
 local function ww(player)
