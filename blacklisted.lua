@@ -6,7 +6,7 @@ local blacklisted = {
 
 local function ww(player)
     if table.find(blacklisted, player.Name) then
-        player:Kick("Zte hub: you got blacklisted")
+        player:Kick("You blacklisted in zte hub, join discord server for more!")
     end
 end
 
